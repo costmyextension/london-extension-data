@@ -1,0 +1,73 @@
+name: Sync data from costmyextension.co.uk
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the latest tables
+        run: scripts/sync.sh
+
+      - name: Commit any change
+        run: |
+          git config user.name "Cost My Extension"
+          git config user.email "oliver@costmyextension.co.uk"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No change in the data."
+          else
+            git commit -m "Data: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Monthly release (archived by Zenodo with a DOI)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="$(date -u +%Y-%m)"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists."
+          else
+            gh release create "$tag" \
+              --title "London extension data, $(date -u '+%B %Y')" \
+              --notes "Monthly snapshot of the London extension cost index and the London planning approvals table from costmyextension.co.uk. CC BY 4.0: credit Cost My Extension and link to https://costmyextension.co.uk." \
+              data/london-extension-cost-index.csv data/london-planning-approvals.csv
+          fi
+
+  huggingface:
+    needs: sync
+    runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Skip when no Hugging Face token is set
+        if: env.HF_TOKEN == ''
+        run: echo "HF_TOKEN secret not set; skipping the Hugging Face mirror."
+
+      - uses: actions/setup-python@v5
+        if: env.HF_TOKEN != ''
+        with:
+          python-version: "3.12"
+
+      - name: Mirror data to Hugging Face
+        if: env.HF_TOKEN != ''
+        run: |
+          pip install --quiet "huggingface_hub>=0.25"
+          python scripts/hf_upload.py

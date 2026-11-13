@@ -1,0 +1,97 @@
+borough,job_family,typical_job,low_gbp,expected_gbp,high_gbp,build_per_m2_low_gbp,build_per_m2_high_gbp,rates_date
+Barking and Dagenham,House extension,Single-storey rear extension,74000,95000,116000,3400,5650,2026-10-28
+Barking and Dagenham,Side-return extension,Side-return extension,55000,72000,88000,4000,6800,2026-10-28
+Barking and Dagenham,Loft conversion,Loft conversion with a rear dormer,67000,86000,105000,1900,3200,2026-10-28
+Barnet,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Barnet,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Barnet,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Bexley,House extension,Single-storey rear extension,74000,95000,116000,3400,5650,2026-10-28
+Bexley,Side-return extension,Side-return extension,55000,72000,88000,4000,6800,2026-10-28
+Bexley,Loft conversion,Loft conversion with a rear dormer,67000,86000,105000,1900,3200,2026-10-28
+Brent,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Brent,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Brent,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Bromley,House extension,Single-storey rear extension,77000,99000,120000,3550,5850,2026-10-28
+Bromley,Side-return extension,Side-return extension,57000,74000,92000,4150,7050,2026-10-28
+Bromley,Loft conversion,Loft conversion with a rear dormer,70000,89000,109000,2000,3350,2026-10-28
+Camden,House extension,Single-storey rear extension,87000,111000,134000,4050,6600,2026-10-28
+Camden,Side-return extension,Side-return extension,64000,84000,103000,4700,8000,2026-10-28
+Camden,Loft conversion,Loft conversion with a rear dormer,78000,100000,122000,2250,3750,2026-10-28
+Croydon,House extension,Single-storey rear extension,76000,97000,118000,3500,5750,2026-10-28
+Croydon,Side-return extension,Side-return extension,56000,73000,90000,4100,6900,2026-10-28
+Croydon,Loft conversion,Loft conversion with a rear dormer,68000,88000,107000,1950,3250,2026-10-28
+Ealing,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Ealing,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Ealing,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Enfield,House extension,Single-storey rear extension,77000,99000,120000,3550,5850,2026-10-28
+Enfield,Side-return extension,Side-return extension,57000,74000,92000,4150,7050,2026-10-28
+Enfield,Loft conversion,Loft conversion with a rear dormer,70000,89000,109000,2000,3350,2026-10-28
+Greenwich,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Greenwich,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Greenwich,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Hackney,House extension,Single-storey rear extension,83000,106000,129000,3850,6350,2026-10-28
+Hackney,Side-return extension,Side-return extension,62000,80000,98000,4500,7650,2026-10-28
+Hackney,Loft conversion,Loft conversion with a rear dormer,75000,96000,117000,2150,3600,2026-10-28
+Hammersmith and Fulham,House extension,Single-storey rear extension,87000,111000,134000,4050,6600,2026-10-28
+Hammersmith and Fulham,Side-return extension,Side-return extension,64000,84000,103000,4700,8000,2026-10-28
+Hammersmith and Fulham,Loft conversion,Loft conversion with a rear dormer,78000,100000,122000,2250,3750,2026-10-28
+Haringey,House extension,Single-storey rear extension,82000,104000,127000,3750,6200,2026-10-28
+Haringey,Side-return extension,Side-return extension,61000,79000,97000,4400,7500,2026-10-28
+Haringey,Loft conversion,Loft conversion with a rear dormer,74000,94000,115000,2100,3550,2026-10-28
+Harrow,House extension,Single-storey rear extension,77000,99000,120000,3550,5850,2026-10-28
+Harrow,Side-return extension,Side-return extension,57000,74000,92000,4150,7050,2026-10-28
+Harrow,Loft conversion,Loft conversion with a rear dormer,70000,89000,109000,2000,3350,2026-10-28
+Havering,House extension,Single-storey rear extension,74000,95000,116000,3400,5650,2026-10-28
+Havering,Side-return extension,Side-return extension,55000,72000,88000,4000,6800,2026-10-28
+Havering,Loft conversion,Loft conversion with a rear dormer,67000,86000,105000,1900,3200,2026-10-28
+Hillingdon,House extension,Single-storey rear extension,76000,97000,118000,3500,5750,2026-10-28
+Hillingdon,Side-return extension,Side-return extension,56000,73000,90000,4100,6900,2026-10-28
+Hillingdon,Loft conversion,Loft conversion with a rear dormer,68000,88000,107000,1950,3250,2026-10-28
+Hounslow,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Hounslow,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Hounslow,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Islington,House extension,Single-storey rear extension,87000,111000,134000,4050,6600,2026-10-28
+Islington,Side-return extension,Side-return extension,64000,84000,103000,4700,8000,2026-10-28
+Islington,Loft conversion,Loft conversion with a rear dormer,78000,100000,122000,2250,3750,2026-10-28
+Kensington and Chelsea,House extension,Single-storey rear extension,91000,115000,140000,4200,6900,2026-10-28
+Kensington and Chelsea,Side-return extension,Side-return extension,67000,87000,107000,4950,8400,2026-10-28
+Kensington and Chelsea,Loft conversion,Loft conversion with a rear dormer,82000,104000,126000,2350,3900,2026-10-28
+Kingston upon Thames,House extension,Single-storey rear extension,82000,104000,127000,3750,6200,2026-10-28
+Kingston upon Thames,Side-return extension,Side-return extension,61000,79000,97000,4400,7500,2026-10-28
+Kingston upon Thames,Loft conversion,Loft conversion with a rear dormer,74000,94000,115000,2100,3550,2026-10-28
+Lambeth,House extension,Single-storey rear extension,83000,106000,129000,3850,6350,2026-10-28
+Lambeth,Side-return extension,Side-return extension,62000,80000,98000,4500,7650,2026-10-28
+Lambeth,Loft conversion,Loft conversion with a rear dormer,75000,96000,117000,2150,3600,2026-10-28
+Lewisham,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Lewisham,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Lewisham,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Merton,House extension,Single-storey rear extension,80000,101000,123000,3650,6050,2026-10-28
+Merton,Side-return extension,Side-return extension,59000,77000,94000,4300,7300,2026-10-28
+Merton,Loft conversion,Loft conversion with a rear dormer,72000,92000,112000,2050,3450,2026-10-28
+Newham,House extension,Single-storey rear extension,77000,99000,120000,3550,5850,2026-10-28
+Newham,Side-return extension,Side-return extension,57000,74000,92000,4150,7050,2026-10-28
+Newham,Loft conversion,Loft conversion with a rear dormer,70000,89000,109000,2000,3350,2026-10-28
+Redbridge,House extension,Single-storey rear extension,76000,97000,118000,3500,5750,2026-10-28
+Redbridge,Side-return extension,Side-return extension,56000,73000,90000,4100,6900,2026-10-28
+Redbridge,Loft conversion,Loft conversion with a rear dormer,68000,88000,107000,1950,3250,2026-10-28
+Richmond upon Thames,House extension,Single-storey rear extension,86000,109000,132000,3950,6500,2026-10-28
+Richmond upon Thames,Side-return extension,Side-return extension,63000,82000,101000,4650,7850,2026-10-28
+Richmond upon Thames,Loft conversion,Loft conversion with a rear dormer,77000,98000,120000,2200,3700,2026-10-28
+Southwark,House extension,Single-storey rear extension,83000,106000,129000,3850,6350,2026-10-28
+Southwark,Side-return extension,Side-return extension,62000,80000,98000,4500,7650,2026-10-28
+Southwark,Loft conversion,Loft conversion with a rear dormer,75000,96000,117000,2150,3600,2026-10-28
+Sutton,House extension,Single-storey rear extension,76000,97000,118000,3500,5750,2026-10-28
+Sutton,Side-return extension,Side-return extension,56000,73000,90000,4100,6900,2026-10-28
+Sutton,Loft conversion,Loft conversion with a rear dormer,68000,88000,107000,1950,3250,2026-10-28
+Tower Hamlets,House extension,Single-storey rear extension,83000,106000,129000,3850,6350,2026-10-28
+Tower Hamlets,Side-return extension,Side-return extension,62000,80000,98000,4500,7650,2026-10-28
+Tower Hamlets,Loft conversion,Loft conversion with a rear dormer,75000,96000,117000,2150,3600,2026-10-28
+Waltham Forest,House extension,Single-storey rear extension,77000,99000,120000,3550,5850,2026-10-28
+Waltham Forest,Side-return extension,Side-return extension,57000,74000,92000,4150,7050,2026-10-28
+Waltham Forest,Loft conversion,Loft conversion with a rear dormer,70000,89000,109000,2000,3350,2026-10-28
+Wandsworth,House extension,Single-storey rear extension,86000,109000,132000,3950,6500,2026-10-28
+Wandsworth,Side-return extension,Side-return extension,63000,82000,101000,4650,7850,2026-10-28
+Wandsworth,Loft conversion,Loft conversion with a rear dormer,77000,98000,120000,2200,3700,2026-10-28
+Westminster,House extension,Single-storey rear extension,91000,115000,140000,4200,6900,2026-10-28
+Westminster,Side-return extension,Side-return extension,67000,87000,107000,4950,8400,2026-10-28
+Westminster,Loft conversion,Loft conversion with a rear dormer,82000,104000,126000,2350,3900,2026-10-28

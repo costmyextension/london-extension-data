@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link to https://costmyextension.co.uk."
+type: dataset
+title: "London extension costs and planning approvals"
+abstract: "Typical all-in costs of rear extensions, side-return extensions and loft conversions in each London borough, and each borough's householder planning decisions over the last 90 days, from Cost My Extension. Refreshed weekly."
+authors:
+  - name: "Cost My Extension"
+    website: "https://costmyextension.co.uk"
+    email: "oliver@costmyextension.co.uk"
+repository-code: "https://github.com/costmyextension/london-extension-data"
+url: "https://costmyextension.co.uk/london-extension-cost-index"
+license: CC-BY-4.0
+keywords:
+  - London
+  - house extension
+  - loft conversion
+  - construction cost
+  - planning permission
+  - householder planning
+  - open data
