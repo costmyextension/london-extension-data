@@ -1,5 +1,7 @@
 # London extension costs and planning approvals
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24195670.svg)](https://doi.org/10.5281/zenodo.24195670)
+
 Open data from [Cost My Extension](https://costmyextension.co.uk) on what house extensions and loft conversions cost in each London borough, and how each council decides householder planning applications. The data is refreshed weekly from the live site.
 
 | File | What it is | Updated |
@@ -54,9 +56,9 @@ Both tables are published under [Creative Commons Attribution 4.0 (CC BY 4.0)](L
 
 Suggested citation:
 
-> Cost My Extension (2026). *London extension costs and planning approvals* [Data set]. https://github.com/costmyextension/london-extension-data
+> Cost My Extension (2026). *London extension costs and planning approvals* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24195670
 
-Each monthly release is archived on Zenodo with a DOI, which is the best thing to cite in academic work. The [`CITATION.cff`](CITATION.cff) file gives the same details in a machine-readable form.
+The DOI above, 10.5281/zenodo.24195670, always points to the latest release. Each monthly release on Zenodo also has its own DOI, for citing one edition exactly. The [`CITATION.cff`](CITATION.cff) file gives the same details in a machine-readable form.
 
 The data is mirrored on Hugging Face at [costmyextension/london-extension-data](https://huggingface.co/datasets/costmyextension/london-extension-data).
 

@@ -7,6 +7,7 @@ authors:
   - name: "Cost My Extension"
     website: "https://costmyextension.co.uk"
     email: "oliver@costmyextension.co.uk"
+doi: "10.5281/zenodo.24195670"
 repository-code: "https://github.com/costmyextension/london-extension-data"
 url: "https://costmyextension.co.uk/london-extension-cost-index"
 license: CC-BY-4.0
