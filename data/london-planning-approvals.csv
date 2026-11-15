@@ -1,34 +1,34 @@
 area,decided,approved,approval_rate_pct,against_london,median_weeks,rated,window_from,window_to
-Richmond upon Thames,174,174,100,above London's 86%,7,yes,2026-08-15,2026-11-13
-Hammersmith and Fulham,66,65,98,above London's 86%,12,yes,2026-08-15,2026-11-13
-Havering,223,211,95,above London's 86%,8,yes,2026-08-15,2026-11-13
-Southwark,78,74,95,above London's 86%,8,yes,2026-08-15,2026-11-13
-Kensington and Chelsea,40,38,95,above London's 86%,8,yes,2026-08-15,2026-11-13
-Merton,108,101,94,above London's 86%,8,yes,2026-08-15,2026-11-13
-Islington,54,51,94,above London's 86%,10,yes,2026-08-15,2026-11-13
-Bexley,203,189,93,above London's 86%,8,yes,2026-08-15,2026-11-13
-Hillingdon,230,211,92,above London's 86%,8,yes,2026-08-15,2026-11-13
-Haringey,93,85,91,above London's 86%,8,yes,2026-08-15,2026-11-13
-Redbridge,361,320,89,above London's 86%,4,yes,2026-08-15,2026-11-13
-Newham,141,126,89,above London's 86%,8,yes,2026-08-15,2026-11-13
-Sutton,132,118,89,above London's 86%,8,yes,2026-08-15,2026-11-13
-Hackney,55,49,89,above London's 86%,8,yes,2026-08-15,2026-11-13
-Kingston upon Thames,177,155,88,in line with London's 86%,8,yes,2026-08-15,2026-11-13
-Camden,42,37,88,in line with London's 86%,10,yes,2026-08-15,2026-11-13
-Westminster,60,52,87,in line with London's 86%,8,yes,2026-08-15,2026-11-13
-Croydon,198,171,86,in line with London's 86%,8,yes,2026-08-15,2026-11-13
-Hounslow,204,171,84,in line with London's 86%,8,yes,2026-08-15,2026-11-13
-Brent,165,137,83,below London's 86%,8,yes,2026-08-15,2026-11-13
-Lewisham,132,109,83,below London's 86%,8,yes,2026-08-15,2026-11-13
-Lambeth,122,101,83,below London's 86%,8,yes,2026-08-15,2026-11-13
-Waltham Forest,162,133,82,below London's 86%,8,yes,2026-08-15,2026-11-13
-Ealing,65,53,82,below London's 86%,8,yes,2026-08-15,2026-11-13
-Harrow,150,122,81,below London's 86%,8,yes,2026-08-15,2026-11-13
-Wandsworth,99,80,81,below London's 86%,8,yes,2026-08-15,2026-11-13
-Tower Hamlets,19,15,79,below London's 86%,8,yes,2026-08-15,2026-11-13
-Barnet,357,274,77,below London's 86%,7,yes,2026-08-15,2026-11-13
-Greenwich,167,125,75,below London's 86%,8,yes,2026-08-15,2026-11-13
-Enfield,281,209,74,below London's 86%,6,yes,2026-08-15,2026-11-13
-Barking and Dagenham,40,29,73,below London's 86%,8,yes,2026-08-15,2026-11-13
-Bromley,0,0,,,,no,2026-08-15,2026-11-13
-London,4398,3785,86,,,yes,2026-08-15,2026-11-13
+Hammersmith and Fulham,67,66,99,above London's 86%,12,yes,2026-08-17,2026-11-15
+Havering,226,214,95,above London's 86%,8,yes,2026-08-17,2026-11-15
+Southwark,78,74,95,above London's 86%,8,yes,2026-08-17,2026-11-15
+Islington,56,53,95,above London's 86%,11,yes,2026-08-17,2026-11-15
+Kensington and Chelsea,40,38,95,above London's 86%,8,yes,2026-08-17,2026-11-15
+Merton,108,101,94,above London's 86%,8,yes,2026-08-17,2026-11-15
+Bexley,204,190,93,above London's 86%,8,yes,2026-08-17,2026-11-15
+Hillingdon,231,212,92,above London's 86%,8,yes,2026-08-17,2026-11-15
+Haringey,93,85,91,above London's 86%,8,yes,2026-08-17,2026-11-15
+Newham,145,130,90,above London's 86%,8,yes,2026-08-17,2026-11-15
+Sutton,134,120,90,above London's 86%,8,yes,2026-08-17,2026-11-15
+Redbridge,361,320,89,above London's 86%,4,yes,2026-08-17,2026-11-15
+Hackney,55,49,89,above London's 86%,8,yes,2026-08-17,2026-11-15
+Kingston upon Thames,184,161,88,in line with London's 86%,8,yes,2026-08-17,2026-11-15
+Camden,43,38,88,in line with London's 86%,10,yes,2026-08-17,2026-11-15
+Westminster,61,53,87,in line with London's 86%,8,yes,2026-08-17,2026-11-15
+Croydon,199,172,86,in line with London's 86%,8,yes,2026-08-17,2026-11-15
+Hounslow,208,175,84,in line with London's 86%,8,yes,2026-08-17,2026-11-15
+Brent,165,137,83,below London's 86%,8,yes,2026-08-17,2026-11-15
+Lewisham,137,114,83,below London's 86%,8,yes,2026-08-17,2026-11-15
+Lambeth,124,103,83,below London's 86%,8,yes,2026-08-17,2026-11-15
+Waltham Forest,162,133,82,below London's 86%,8,yes,2026-08-17,2026-11-15
+Ealing,65,53,82,below London's 86%,8,yes,2026-08-17,2026-11-15
+Harrow,150,122,81,below London's 86%,8,yes,2026-08-17,2026-11-15
+Wandsworth,99,80,81,below London's 86%,8,yes,2026-08-17,2026-11-15
+Tower Hamlets,19,15,79,below London's 86%,8,yes,2026-08-17,2026-11-15
+Barnet,358,275,77,below London's 86%,7,yes,2026-08-17,2026-11-15
+Greenwich,167,125,75,below London's 86%,8,yes,2026-08-17,2026-11-15
+Enfield,281,209,74,below London's 86%,6,yes,2026-08-17,2026-11-15
+Barking and Dagenham,40,29,73,below London's 86%,8,yes,2026-08-17,2026-11-15
+Richmond upon Thames,180,,,feed records no refusals,,no,2026-08-17,2026-11-15
+Bromley,0,0,,,,no,2026-08-17,2026-11-15
+London,4260,3646,86,,,yes,2026-08-17,2026-11-15

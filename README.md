@@ -39,16 +39,31 @@ One row per borough, then London as a whole.
 |---|---|
 | `area` | London borough, or `London` for all rated boroughs together |
 | `decided` | Decisions made in the window, approved or refused (withdrawn applications are not counted) |
-| `approved` | Of those, approved, including "prior approval not required" and certificates granted |
+| `approved` | Of those, approved, including "prior approval not required" and certificates granted. Empty for a council whose feed records no refusals |
 | `approval_rate_pct` | `approved / decided`, as a whole percentage. Empty where `rated` is `no` |
-| `against_london` | Whether the borough sits above, in line with or below the London rate |
+| `against_london` | Whether the borough sits above, in line with or below the London rate, or `feed records no refusals` |
 | `median_weeks` | Typical wait from a valid application to a decision, in weeks |
-| `rated` | `no` where too few decisions matched for a fair rate |
+| `rated` | `no` where too few decisions matched for a fair rate, or where the council's feed records approvals but not refusals |
 | `window_from`, `window_to` | The 90 days covered |
 
-Included: householder applications, larger home extension prior approvals and proposed-use lawful development certificates for extensions and loft conversions. Each decision is sorted into a job from its description. Street names, house numbers and applicants are left out. Coverage depends on what each council sends to the datahub, and some councils send few or no records (`rated` = `no`).
+Included: householder applications, larger home extension prior approvals and proposed-use lawful development certificates for extensions and loft conversions. Each decision is sorted into a job from its description. Street names, house numbers and applicants are left out. Coverage depends on what each council sends to the datahub. Some councils send few or no records, and one sends approvals without refusals; these are not rated (`rated` = `no`) and are left out of the `London` row.
 
 **Source:** [Planning London Datahub](https://planningdata.london.gov.uk/), Greater London Authority. The datahub publishes its data openly through a public guest API and names no licence. The figures here are Cost My Extension's counts and rates derived from those records.
+
+## Corrections
+
+**15 November 2026: Richmond upon Thames was wrongly shown as approving 100%.**
+
+Editions dated before 15 November 2026 gave Richmond upon Thames an approval rate of 100%. That figure was wrong. Richmond's feed to the Planning London Datahub records each decision as "Approved" or "Closed" and never as "Refused", so its refusals were not counted. Of its decisions in the 90 days to 15 November, 54 were "Closed", six of them under appeal, and the government's planning statistics have the council granting 83% of householder applications in the year to June 2026.
+
+From 15 November 2026 a council whose feed records no refusals is not rated: its `approved`, `approval_rate_pct` and `median_weeks` are empty, `against_london` reads `feed records no refusals`, `rated` is `no`, and its decisions are left out of the `London` row.
+
+What is affected:
+- `data/history/london-planning-approvals-2026-11-13.csv`, kept as published. Its Richmond row (174 decided, 100%) should not be used. Its `London` row counts Richmond's 174 decisions; without them London approved 85% of 4,224, not 86% of 4,398.
+- The November 2026 release, archived on Zenodo, which holds that same file.
+- Any copy taken before 15 November 2026, including the first Kaggle upload.
+
+No other borough's figures are affected.
 
 ## Licence and how to cite
 
