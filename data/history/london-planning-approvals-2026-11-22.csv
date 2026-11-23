@@ -1,0 +1,34 @@
+area,decided,approved,approval_rate_pct,against_london,median_weeks,rated,window_from,window_to
+Hammersmith and Fulham,67,66,99,above London's 86%,12,yes,2026-08-24,2026-11-22
+Havering,225,213,95,above London's 86%,8,yes,2026-08-24,2026-11-22
+Southwark,75,71,95,above London's 86%,8,yes,2026-08-24,2026-11-22
+Kensington and Chelsea,37,35,95,above London's 86%,8,yes,2026-08-24,2026-11-22
+Islington,54,51,94,above London's 86%,11,yes,2026-08-24,2026-11-22
+Hillingdon,233,216,93,above London's 86%,8,yes,2026-08-24,2026-11-22
+Bexley,200,186,93,above London's 86%,8,yes,2026-08-24,2026-11-22
+Merton,133,124,93,above London's 86%,8,yes,2026-08-24,2026-11-22
+Haringey,85,77,91,above London's 86%,8,yes,2026-08-24,2026-11-22
+Westminster,55,50,91,above London's 86%,8,yes,2026-08-24,2026-11-22
+Sutton,126,113,90,above London's 86%,8,yes,2026-08-24,2026-11-22
+Hackney,71,64,90,above London's 86%,8,yes,2026-08-24,2026-11-22
+Newham,150,133,89,above London's 86%,8,yes,2026-08-24,2026-11-22
+Redbridge,348,306,88,in line with London's 86%,4,yes,2026-08-24,2026-11-22
+Kingston upon Thames,173,151,87,in line with London's 86%,7,yes,2026-08-24,2026-11-22
+Camden,47,41,87,in line with London's 86%,9,yes,2026-08-24,2026-11-22
+Hounslow,209,179,86,in line with London's 86%,8,yes,2026-08-24,2026-11-22
+Croydon,182,155,85,in line with London's 86%,8,yes,2026-08-24,2026-11-22
+Ealing,140,119,85,in line with London's 86%,8,yes,2026-08-24,2026-11-22
+Brent,154,128,83,below London's 86%,8,yes,2026-08-24,2026-11-22
+Lewisham,133,110,83,below London's 86%,8,yes,2026-08-24,2026-11-22
+Tower Hamlets,18,15,83,below London's 86%,8,yes,2026-08-24,2026-11-22
+Lambeth,120,98,82,below London's 86%,8,yes,2026-08-24,2026-11-22
+Wandsworth,80,65,81,below London's 86%,8,yes,2026-08-24,2026-11-22
+Harrow,204,164,80,below London's 86%,8,yes,2026-08-24,2026-11-22
+Waltham Forest,164,132,80,below London's 86%,8,yes,2026-08-24,2026-11-22
+Barnet,356,276,78,below London's 86%,7,yes,2026-08-24,2026-11-22
+Enfield,256,193,75,below London's 86%,6,yes,2026-08-24,2026-11-22
+Greenwich,166,124,75,below London's 86%,8,yes,2026-08-24,2026-11-22
+Barking and Dagenham,51,37,73,below London's 86%,8,yes,2026-08-24,2026-11-22
+Richmond upon Thames,178,,,feed records no refusals,,no,2026-08-24,2026-11-22
+Bromley,0,0,,,,no,2026-08-24,2026-11-22
+London,4312,3692,86,,,yes,2026-08-24,2026-11-22
